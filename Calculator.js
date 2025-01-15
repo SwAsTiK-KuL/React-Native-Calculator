@@ -16,7 +16,7 @@ const CalculatorApp = () => {
 
   const handleCalculate = () => {
     try {
-      setResult(eval(input).toString()); // Evaluates the input expression
+      setResult(eval(input).toString()); 
     } catch (e) {
       setResult('Error');
     }
